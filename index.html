@@ -10,6 +10,13 @@
         <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
+        <!--Favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="./resources/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         <header>
@@ -17,23 +24,23 @@
                 <div class="row">
                     <img src="./resources/img/logo-white.png" alt="Omnifood logo" class="logo">
                     <ul class="main-nav">
-                        <li><a href="#">Food delivery</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Our cities </a></li>
-                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#foodDelivery">Food delivery</a></li>
+                        <li><a href="#howItWorks">How it works</a></li>
+                        <li><a href="#ourCities">Our cities </a></li>
+                        <li><a href="#signUp">Sign up</a></li> 
                     </ul>
                 </div>
             </nav>
 
             <div class="hero-text-box">
                 <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I’m hungry</a> 
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-full" href="#hungry">I’m hungry</a> 
+                <a class="btn btn-ghost" href="#foodDelivery">Show me more</a>
             </div>
         </header>
 
         <section class="section-features">
-           <div class="row">
+           <div id='foodDelivery'class ="row">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
                 </p>
@@ -69,8 +76,8 @@
             </div>
         </section>
 
-        <section class="section-meals">
-           <ul class="meals-showcase clearfix"> 
+        <section id="hungry"class="section-meals">
+           <ul  class="meals-showcase clearfix"> 
                 <li>
                     <figure class="meal-photo">
                         <img src="./resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
@@ -115,8 +122,8 @@
 
         </section>
 
-        <section class="section-steps">
-            <div class="row">
+        <section id="howItWorks" class="section-steps">
+            <div  class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3 </h2>
             </div>
             <div class="row">
@@ -143,7 +150,7 @@
             </div>
         </section>
 
-        <section class="section-cities">
+        <section id="ourCities"class="section-cities">
             <div class="row">
                 <h2> We're currently in these cities</h2>
             </div>
@@ -240,7 +247,7 @@
                 </div>
          </section>
 
-         <section class="section-plans">
+         <section id="signUp"class="section-plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
